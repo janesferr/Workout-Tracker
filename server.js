@@ -6,9 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 const app = express();
 
-// app.listen(PORT, () => {
-//     console.log(`You're up and running on port ${PORT}`);
-// })
+
 //connect to mongoose
 mongoose.connect(process.env.MONGO_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
