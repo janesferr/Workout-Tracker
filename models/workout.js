@@ -28,7 +28,7 @@ const WorkoutSchema = new Schema(
                 type: Number,
             },
             reps:{
-                type: Number
+                type: Number,
             },
             sets:{
                 type: Number,
@@ -48,7 +48,7 @@ const WorkoutSchema = new Schema(
 } 
 );
 
-WorkoutSchema.virtual("Duration").get(function(){
+WorkoutSchema.virtual("totalDuration").get(function(){
     return this.exercises.reduce((total, exercise) => {
         return total + exercise.duration;
     }, 0);
