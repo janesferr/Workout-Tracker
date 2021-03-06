@@ -36,6 +36,8 @@ to take in the data and setup the database with a few information in it.
 
 Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
 
+This is created with HTML, Bootstrap, Nodejs, MongoDB, Express, and Javascript
+
 ## License
 The MIT License (MIT)
 
