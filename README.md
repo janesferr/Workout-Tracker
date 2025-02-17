@@ -30,8 +30,8 @@ Then, run npm i seed
 to take in the data and setup the database with a few information in it.  
 
 
-* The URL to the deployed application: workout-tracker-delta-six.vercel.app
-
+* The URL to the deployed application: [workout-tracker-delta-six.vercel.app
+](https://workout-tracker-delta-six.vercel.app/)
 ![alt text](images/workoutimage.png)
 
 Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
