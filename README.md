@@ -30,7 +30,7 @@ Then, run npm i seed
 to take in the data and setup the database with a few information in it.  
 
 
-* The URL to the deployed application: https://intense-bastion-93569.herokuapp.com/?id=60428f9def66c50015e2f098
+* The URL to the deployed application: workout-tracker-delta-six.vercel.app
 
 ![alt text](images/workoutimage.png)
 
